@@ -1,0 +1,2 @@
+<app-add (addedCustomer)="refreshCustomers($event)"></app-add>
+<app-list (customerChanged)="refreshCustomers($event)" [dataSource]="dataSource"></app-list>
